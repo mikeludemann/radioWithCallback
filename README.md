@@ -12,6 +12,8 @@ radioWithCallback(eventElement,callback);
 
 With test parameter
 
+radioWithCallback("input[name='currency']");
+
 radioWithCallback("input[name='currency']", function(){
 
 		alert("Hi");
@@ -19,6 +21,8 @@ radioWithCallback("input[name='currency']", function(){
 	}
 
 );
+
+radioWithCallback(".currency");
 
 radioWithCallback(".currency", function(){
 
